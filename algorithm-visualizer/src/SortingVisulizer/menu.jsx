@@ -19,10 +19,10 @@ class Menu extends Component {
                     Randomize
                 </button>
 
-                <RangeSlider
-                    disable={this.props.disable}
-                />
-                <DiscreteSlider
+                {/* <RangeSlider
+                    disabled={this.props.disable}
+                /> */}
+                {/* <DiscreteSlider
                     default={20}
                     min={10}
                     max={100}
@@ -39,8 +39,8 @@ class Menu extends Component {
                     title="Speed"
                     onCountChange={this.props.onSpeedChange}
                     disable={false}
-                />
-                <SimpleSelect
+                /> */}
+                {/* <SimpleSelect
                     pos={0}
                     onAlgoChanged={this.props.onAlgoChanged}
                 />
@@ -51,11 +51,11 @@ class Menu extends Component {
                 <SimpleSelect
                     pos={1}
                     onAlgoChanged={this.props.onAlgoChanged}
-                />
+                /> */}
                 <button
                     className='btn btn-warning btn-lg '
                     onClick={this.props.onViusalize}
-                    disabled={this.props.disable}
+                    disable={this.props.disable}
                     style={this.isClickable()}
                 >
                     Visualize

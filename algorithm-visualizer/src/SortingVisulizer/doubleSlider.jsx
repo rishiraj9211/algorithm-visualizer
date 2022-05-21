@@ -1,9 +1,9 @@
 import React from 'react';
-import {makeStyles, withStyles} from '@material-ui/core/styles';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 
-const useStyles = makeStyles({
+const useStyles = withStyles({
     root: {
         width: 200,
     },
@@ -12,7 +12,7 @@ const useStyles = makeStyles({
 
 const CSlider = withStyles({
     root: {
-       // color: "#ffffff",
+        // color: "#ffffff",
         height: 3,
         padding: "13px 0",
     },
@@ -30,11 +30,9 @@ function valuetext(value) {
     return `${value}`;
 }
 
-
-
 export default function RangeSlider(props) {
-    const classes = useStyles();
-    const [value, setValue] = React.useState([20, 37]);
+    //const classes = useStyles();
+    const [value, setValue] = React.useState([20, 100]);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -45,7 +43,7 @@ export default function RangeSlider(props) {
     };
 
     return (
-        <div className={classes.root}>
+        <div >
             <CSlider
                 disabled={props.disable}
                 value={value}
@@ -54,11 +52,11 @@ export default function RangeSlider(props) {
                 valueLabelDisplay="auto"
                 aria-labelledby="range-slider"
                 getAriaValueText={valuetext}
-                // valueLabelDisplay="off"
+            // valueLabelDisplay="off"
             />
-            <Typography id="range-slider" gutterBottom>
+            {/* <Typography id="range-slider" gutterBottom>
                 Value range
-            </Typography>
+            </Typography> */}
         </div>
     );
 }
