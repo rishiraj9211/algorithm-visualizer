@@ -1,0 +1,26 @@
+.first-box {
+  width: 300px;
+  float: left;
+  background: green;
+  height: 150px;
+  margin: 50px;
+}
+
+.first-box p {
+  color: #ffffff;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.second-box {
+  width: 300px;
+  height: 150px;
+  float: right;
+  background: blue;
+  margin: 50px;
+}
+
+.second-box p {
+  color: #ffffff;
+  padding-left: 110px;
+  padding-top: 50px;
+}
