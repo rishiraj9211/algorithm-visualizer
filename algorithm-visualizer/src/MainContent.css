@@ -4,11 +4,12 @@
   background: green;
   height: 150px;
   margin: 50px;
+  margin-left: 50px;
 }
 
 .first-box p {
   color: #ffffff;
-  padding-left: 80px;
+  padding-left: 50px;
   padding-top: 50px;
 }
 .second-box {
@@ -17,10 +18,11 @@
   float: right;
   background: blue;
   margin: 50px;
+  margin-left: 50px;
 }
 
 .second-box p {
   color: #ffffff;
-  padding-left: 110px;
+  padding-left: 50px;
   padding-top: 50px;
 }
