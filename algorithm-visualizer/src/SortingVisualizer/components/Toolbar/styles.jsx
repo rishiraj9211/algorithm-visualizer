@@ -41,7 +41,7 @@ export const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 60px;
-  background-color: ${Colors.secondary};
+  background-color: rgb(52,58,64);
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

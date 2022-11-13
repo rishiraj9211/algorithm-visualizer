@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import MainNavBar from "../../../MainNavBar";
 import {
   BubbleSort,
   GnomeSort,
@@ -12,7 +13,7 @@ import { Container, Bar, Wrapper } from "./styles";
 
 const sortingAlgorithms = [
   { component: BubbleSort, name: "Bubble Sort" },
-  { component: GnomeSort, name: "Gnome Sort" },
+  // { component: GnomeSort, name: "Gnome Sort" },
   { component: HeapSort, name: "Heap Sort" },
   { component: QuickSort, name: "Quick Sort" },
   { component: MergeSort, name: "Merge Sort" },
@@ -51,6 +52,7 @@ const Canvas = () => {
 
   return (
     <Wrapper>
+      <MainNavBar/>
       <Toolbar
         algorithms={sortingAlgorithms}
         currentAlgo={currentAlgo}

@@ -36,7 +36,7 @@ const Toolbar = ({
         <Span>Change size & speed</Span>
         <Slider
           type="range"
-          min="50"
+          min="10"
           max="250"
           onChange={handleLength}
           value={len}
