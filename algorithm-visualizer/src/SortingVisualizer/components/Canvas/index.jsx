@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import MainNavBar from "../../../MainNavBar";
 import {
   BubbleSort,
-  GnomeSort,
+  
   HeapSort,
   QuickSort,
   MergeSort,
