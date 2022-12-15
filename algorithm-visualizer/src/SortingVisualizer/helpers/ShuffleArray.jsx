@@ -3,8 +3,8 @@ import GenerateGradient from "./Gradient";
 const ShuffleArray = (length) => {
   let data = [];
   const gradient = GenerateGradient(
-    "rgb(18, 65, 135)",
-    "rgb(0,220,255)",
+    "rgb(0, 0, 0)",
+    "rgb(0,0,250)",
     length
   );
 

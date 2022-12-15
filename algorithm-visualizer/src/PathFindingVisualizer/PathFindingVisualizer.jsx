@@ -52,7 +52,7 @@ export default class PathFindingVisualizer extends Component {
 
       if (i === visitedNodesInOrder.length) {
         //  setTimeout(() => {
-        await sleep(100);
+        await sleep(50);
         await this.animateShortestPath(nodesInShortestPathOrder);
 
         //  }, 10 * (i+10));
@@ -66,7 +66,7 @@ export default class PathFindingVisualizer extends Component {
       //this.setState({grid:newGrid});
       document.getElementById(`node-${node.row}-${node.col}`).className =
         'node node-visited';
-      await sleep(10);
+      await sleep(5);
       // }, 10 * i);
     }
   }
@@ -89,7 +89,7 @@ export default class PathFindingVisualizer extends Component {
       }
       document.getElementById(`node-${node.row}-${node.col}`).className =
         'node node-shortest-path';
-      await sleep(50);
+      await sleep(25);
       //}, 50 * i);
     }
   }
@@ -150,8 +150,8 @@ export default class PathFindingVisualizer extends Component {
           style={{ backgroundColor: "#343a40" }}
         >
           <Link className="navbar-brand m-2" to="/">
-            <img src="../logo192.png" alt="LogoImage" width="40" height="35" />
-          </Link>
+                    <img src="../VisuAlgo-logo.jpg" alt="LogoImage" width="190" height="60"/>
+                </Link>
           <h1 className="navbar-brand m-2" style={{ color: "white" }}>{this.state.appTitle}</h1>
           <select id="algo-Dropdown"
             className="btn btn-secondary dropdown-toggle m-2"
