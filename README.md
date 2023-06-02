@@ -5,6 +5,7 @@ VISUALGO
 
 
 
-https://github.com/rishiraj9211/algorithm-visualizer/assets/58616001/ad059411-06c9-4570-8e2f-ebf8a3b6aaa0
+https://github.com/rishiraj9211/algorithm-visualizer/assets/58616001/d625b9fb-dcca-45c4-b927-a774195740a6
+
 
 
